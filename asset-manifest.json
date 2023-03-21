@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/hot-beans-web/static/js/main.0370c18e.js",
+    "main.css": "/hot-beans-web/static/css/main.0c1b1122.css",
+    "main.js": "/hot-beans-web/static/js/main.f8f01cfc.js",
     "index.html": "/hot-beans-web/index.html",
-    "main.0370c18e.js.map": "/hot-beans-web/static/js/main.0370c18e.js.map"
+    "main.0c1b1122.css.map": "/hot-beans-web/static/css/main.0c1b1122.css.map",
+    "main.f8f01cfc.js.map": "/hot-beans-web/static/js/main.f8f01cfc.js.map"
   },
   "entrypoints": [
-    "static/js/main.0370c18e.js"
+    "static/css/main.0c1b1122.css",
+    "static/js/main.f8f01cfc.js"
   ]
 }
