@@ -1,23 +1,25 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "./App.css"
+import Join from './pages/join';
+import { BrowserRouter, Route } from "react-router-dom";
 import About from './pages/about';
-import courses from './pages/courses';
-import Teams from './pages/teams';
-import login from './pages/login';
-  
+
+
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/about' component={About} />
-        <Route path='/courses' component={courses} />
-        <Route path='/team' component={Teams} />
-        <Route path='/login' component={login} />
-      </Routes>
-    </Router>
+  <BrowserRouter>
+    <div className='navbar'>
+      <div className='navbar__links'>
+        <a href='/hot-beans-web/join'>Join</a>
+        <a href='/hot-beans-web/about'>About</a>
+      </div>
+    </div>
+
+
+    <Route path="/hot-beans-web/about" component={About} /> 
+    <Route path="/hot-beans-web/join" component={Join} />
+    </BrowserRouter>
   );
-}
+};
   
 export default App;

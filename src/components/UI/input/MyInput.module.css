@@ -1,0 +1,11 @@
+.myInput {
+    box-sizing: border-box;
+    width: 469px;
+    height: 38px;
+    background: #F4F7FF;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
