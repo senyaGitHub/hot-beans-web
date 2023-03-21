@@ -1,6 +1,7 @@
 import React from "react";
 import MyInput from "../components/UI/input/MyInput";
 import classes from "./join.module.css"
+import logo from "../logo/logo.png"
 
 const Join = () =>{
     return (
@@ -15,7 +16,11 @@ const Join = () =>{
                     <MyInput/>
                     <p>Phone</p>
                     <MyInput/>
+                    <button>Apply</button>
                 </form>
+                <div id='img'>
+                <img src={logo} alt="logo of hot-beans-web"/>
+                </div>
         </div>
     )
 }

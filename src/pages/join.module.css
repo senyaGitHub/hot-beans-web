@@ -3,47 +3,57 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
-        position: flex;
+        position: relative;
         
         }
-        p{
-            /* Frame 35 */
-        
-        
-        /* Auto layout */
-        /* First Name */
-        
-        
+p{
+                 
         width: 150px;
         height: 24px;
-        
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        /* identical to box height */
-        
-        
         color: #000000;
-        
-        
-        /* Inside auto layout */
-        
         flex: none;
         order: 0;
         flex-grow: 0;
         }
-        h1{
-            position: flex;
-            
-            
+
+h1{
+            position: relative;
+            margin-left: 175px;
             font-family: 'Space Mono';
             font-style: normal;
             font-weight: 500;
-            font-size: 32px;
+            font-size: 25px;
             line-height: 41px;
-            /* identical to box height */
-            
-            
+    
             color: #000000;}
+
+
+form{
+    margin-left: 100px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 16px;
+    background: #000000;
+    gap: 10px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Space Mono';
+    text-decoration: none;
+    border: none;
+}
+img{
+    position: absolute;
+    width: 605px;
+    height: 315px;
+    left: 740px;
+    top: 190px;
+}
