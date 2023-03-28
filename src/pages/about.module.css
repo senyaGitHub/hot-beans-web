@@ -1,3 +1,24 @@
-h1{ 
-    text-align: center;
-}
+.about {
+    font-family: space mono;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .content {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .imageContainer {
+    width: 50%;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  

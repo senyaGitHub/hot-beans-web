@@ -1,29 +1,110 @@
-.div{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        position: relative;
-        
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    font-family: 'Space mono';
+    font-style: normal;
+    font-weight: 30;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+  }
+  
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .formRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .formLabel {
+    width: 150px;
+    height: 24px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .formInput {
+    flex: 1;
+  }
+  
+  .form button {
+    border: none;
+    width: 50%;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #A9C2E7;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 33px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #7598c1;
+    color: #ffffff;
+  }
+  
+  .imageContainer {
+    width: 50%;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
     }
-
-.mh1 {
-            position: relative;
-            margin-left: 175px;
-            font-family: 'Space Mono';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 41px;
-    
-            color: #000000;}
-
-
-
-.mimg {
-    position: absolute;
-    width: 605px;
-    height: 315px;
-    left: 740px;
-    top: 190px;
-}
+    .formContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .form {
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+    .formLabel {
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+    .formButton {
+      width: 100%;
+    }
+    .imageContainer {
+      width: 100%;
+    }
+  }
+  

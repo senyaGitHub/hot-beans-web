@@ -1,34 +1,29 @@
 import React from 'react';
-import  "./App.css"
+import './App.css';
 import Join from './pages/join';
-import {Route, NavLink } from "react-router-dom";
 import About from './pages/about';
-import githubLogo from ".//logo/github-mark.png"
+import { Route, NavLink } from 'react-router-dom';
+import githubLogo from './logo/github-mark.png';
 
 function App() {
   return (
-  <div>
-    <div className='navbar'>
-      <div className='navbar__links'>
+    <div className='App'>
+      <nav className='navbar'>
         <NavLink to='/hot-beans-web/join'>Join</NavLink>
         <NavLink to='/hot-beans-web/about'>About</NavLink>
-      </div>
+      </nav>
+      <main>
+        <Route path='/hot-beans-web/join' component={Join} />
+        <Route path='/hot-beans-web/about' component={About} />
+      </main>
+      <footer>
+        <div className='footer__left'>
+          <img src={githubLogo} alt='Github' />
+          <p>Arsenii Selivanov</p>
+        </div>
+      </footer>
     </div>
-    
-    <div><br/></div>
-    <div><br/></div>
-    <Route path="/hot-beans-web/about" component={About} /> 
-    <Route path="/hot-beans-web/join" component={Join} />
-    <footer>
-      <div class='glogo'>
-    <img src={githubLogo} alt='github'/>
-    </div>
-
-    <p>Arsenii Selivanov</p>
-      
-    </footer>
-  </div>
   );
-};
-  
+}
+
 export default App;
