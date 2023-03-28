@@ -1,0 +1,37 @@
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .team {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .personImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .personDescription {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+  }

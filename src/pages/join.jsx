@@ -7,10 +7,11 @@ const Join = () =>{
     return (
         <div className={classes.container}>
             <div className={classes.header}>
-                <p>Join our super company!</p>
+                
             </div>
             <div className={classes.formContainer}>
                 <form className={classes.form}>
+                <h1>Join our super company!</h1>
                     <div className={classes.formRow}>
                         <label className={classes.formLabel}>First Name</label>
                         <MyInput />
@@ -30,7 +31,7 @@ const Join = () =>{
                     <button className={classes.formButton}>Apply</button>
                 </form>
                 <div className={classes.imageContainer}>
-                    <img src={logo} alt="logo of hot-beans-web" className={classes.image}/>
+                   /<img src={logo} alt="logo of hot-beans-web" className={classes.image}/>
                 </div>
             </div>
         </div>

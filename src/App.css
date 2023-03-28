@@ -38,6 +38,7 @@ body {
   /* Footer component */
   
   footer {
+    font-family: space mono;
     position: fixed;
     height: 70px;
     left: 0;
@@ -50,7 +51,7 @@ body {
   footer img {
     height: 50px;
     width: 50px;
-    margin-right: 10px;
+    margin-right: 50px;
     float: right;
   }
   

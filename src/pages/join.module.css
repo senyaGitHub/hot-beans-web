@@ -4,7 +4,15 @@
     align-items: center;
     padding: 20px;
   }
-  
+  h1{
+    font-family: 'Space mono';
+    font-style: normal;
+    font-weight: 30;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+
+  }
   .header {
     font-family: 'Space mono';
     font-style: normal;
@@ -80,6 +88,9 @@
   .image {
     width: 100%;
     height: auto;
+    align-self: center;
+    margin-top: 150px;
+ 
   }
   
   @media (max-width: 768px) {
