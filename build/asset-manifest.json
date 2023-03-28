@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/hot-beans-web/static/css/main.a37739d1.css",
-    "main.js": "/hot-beans-web/static/js/main.d2764f99.js",
+    "main.css": "/hot-beans-web/static/css/main.02019298.css",
+    "main.js": "/hot-beans-web/static/js/main.130301e0.js",
     "static/media/logo.png": "/hot-beans-web/static/media/logo.2cb4cee8ada4e5b45479.png",
     "index.html": "/hot-beans-web/index.html",
-    "main.a37739d1.css.map": "/hot-beans-web/static/css/main.a37739d1.css.map",
-    "main.d2764f99.js.map": "/hot-beans-web/static/js/main.d2764f99.js.map"
+    "main.02019298.css.map": "/hot-beans-web/static/css/main.02019298.css.map",
+    "main.130301e0.js.map": "/hot-beans-web/static/js/main.130301e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a37739d1.css",
-    "static/js/main.d2764f99.js"
+    "static/css/main.02019298.css",
+    "static/js/main.130301e0.js"
   ]
 }
