@@ -1,9 +1,9 @@
 import React from 'react';
-import "./App.css"
+import  "./App.css"
 import Join from './pages/join';
 import {Route, NavLink } from "react-router-dom";
 import About from './pages/about';
-
+import githubLogo from ".//logo/github-mark.png"
 
 function App() {
   return (
@@ -20,7 +20,12 @@ function App() {
     <Route path="/hot-beans-web/about" component={About} /> 
     <Route path="/hot-beans-web/join" component={Join} />
     <footer>
-      <p>Arsenii Selivanov</p>
+      <div class='glogo'>
+    <img src={githubLogo} alt='github'/>
+    </div>
+
+    <p>Arsenii Selivanov</p>
+      
     </footer>
   </div>
   );
