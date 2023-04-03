@@ -1,31 +1,39 @@
 import React from 'react';
 import classes from './teams.module.css';
-//import person1 from '../images/person1.png';
-// import person2 from '../images/person2.png';
-// import person3 from '../images/person3.png';
+import person1 from './/images/person1.jpeg';
+import person2 from './/images/person2.jpeg';
+import person3 from './/images/person3.jpeg';
+import androidIcon from './/icons/android.png';
+import cppIcon from './/icons/cpp.png';
+import reactIcon from './/icons/react.png';
 
 function Teams() {
   return (
     <div className={classes.teams}>
-      <div className={classes.team}>
-        {/* <img src={person1} alt="Person 1" className={classes.personImage} /> */}
-        <div className={classes.personDescription}>
-          <h2>Person 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet justo a nisl commodo iaculis. Fusce dignissim ante quis ex malesuada dignissim. Sed quis mauris tincidunt, egestas lorem nec, faucibus augue.</p>
+      <div className={classes.row}>
+        <div className={classes.rectangle}>
+          <img src={person1} alt='person 1' className={classes.image} />
+          <div className={classes.description}>
+            <h3>John Doe</h3>
+            <img src={androidIcon} alt='android' className={classes.icon} />
+          </div>
+          <p>John is mobile developer, he is responsible for responsive design</p>
         </div>
-      </div>
-      <div className={classes.team}>
-        {/* <img src={person2} alt="Person 2" className={classes.personImage} /> */}
-        <div className={classes.personDescription}>
-          <h2>Person 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet justo a nisl commodo iaculis. Fusce dignissim ante quis ex malesuada dignissim. Sed quis mauris tincidunt, egestas lorem nec, faucibus augue.</p>
+        <div className={classes.rectangle}>
+          <img src={person2} alt='person 2' className={classes.image} />
+          <div className={classes.description}>
+            <h3>Jane Doe</h3>
+            <img src={cppIcon} alt='cpp' className={classes.icon} />
+          </div>
+          <p>Jane is important person in making our backend. </p>
         </div>
-      </div>
-      <div className={classes.team}>
-        {/* <img src={person3} alt="Person 3" className={classes.personImage} /> */}
-        <div className={classes.personDescription}>
-          <h2>Person 3</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet justo a nisl commodo iaculis. Fusce dignissim ante quis ex malesuada dignissim. Sed quis mauris tincidunt, egestas lorem nec, faucibus augue.</p>
+        <div className={classes.rectangle}>
+          <img src={person3} alt='person 3' className={classes.image} />
+          <div className={classes.description}>
+            <h3>Bob Smith</h3>
+            <img src={reactIcon} alt='react' className={classes.icon} />
+          </div>
+          <p> Bob is head of front end development</p>
         </div>
       </div>
     </div>

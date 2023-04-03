@@ -12,16 +12,6 @@
   margin-right: 50px;
 }
 
-.divider {
-  border-left: 1px solid black;
-  height: 500px;
-  transform: translateY(50%);
-  margin-right: 20px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-}
 .imageContainer {
   width: 50%;
 }
