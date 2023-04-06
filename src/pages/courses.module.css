@@ -40,7 +40,8 @@
     width: calc(33.33% - 20px);
     height: 350px;
     margin-bottom: 40px;
-    padding: 40px;
+
+
     display: flex;
     background-size: cover;
     flex-direction: column;

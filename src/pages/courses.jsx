@@ -7,7 +7,7 @@ import designImage1 from './images/design1-min.jpg';
 import designImage2 from './images/design2-min.jpg';
 import designImage3 from './images/design3-min.jpg';
 
-
+// please note, this mess is for different backgrounds to work properly. Maybe it is not the best solution, but i am new to react and it is good enough to work.
 function Courses() {
   const courseData = [
     {
