@@ -1,10 +1,14 @@
+import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
 import React from 'react';
 import './App.css';
+
 import Join from './pages/join';
 import About from './pages/about';
 import Teams from './pages/teams';
-import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
+import Courses from './pages/courses';
+
 import githubLogo from './logo/github-mark.png';
+
 
 function App() {
   return (
@@ -13,6 +17,7 @@ function App() {
         <NavLink to='/hot-beans-web/join'>Join</NavLink>
         <NavLink to='/hot-beans-web/about'>About</NavLink>
         <NavLink to='/hot-beans-web/teams'>Teams</NavLink>
+        <NavLink to='/hot-beans-web/courses'>Courses</NavLink>
       </nav>
       <main>
         <Switch>
@@ -20,6 +25,7 @@ function App() {
           <Route path='/hot-beans-web/join' component={Join} />
           <Route path='/hot-beans-web/about' component={About} />
           <Route path='/hot-beans-web/teams' component={Teams} />
+          <Route path='/hot-beans-web/courses' component={Courses} /> 
           <Redirect to='/hot-beans-web/' />
         </Switch>
       </main>
