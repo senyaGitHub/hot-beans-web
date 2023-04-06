@@ -1,8 +1,10 @@
 import React from 'react';
 import classes from './teams.module.css';
-import person1 from './/images/person1.jpeg';
-import person2 from './/images/person2.jpeg';
-import person3 from './/images/person3.jpeg';
+//using compressed images
+import person1 from './/images/person1-min.jpeg';
+import person2 from './/images/person2-min.jpeg';
+import person3 from './/images/person3-min.jpeg';
+
 import androidIcon from './/icons/android.png';
 import cppIcon from './/icons/cpp.png';
 import reactIcon from './/icons/react.png';
