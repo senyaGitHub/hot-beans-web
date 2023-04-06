@@ -14,10 +14,10 @@ function App() {
   return (
     <div className='App'>
       <nav className='navbar'>
-        <NavLink to='/hot-beans-web/join'>Join</NavLink>
-        <NavLink to='/hot-beans-web/about'>About</NavLink>
+        <NavLink to='/hot-beans-web/About'>About</NavLink>
         <NavLink to='/hot-beans-web/teams'>Teams</NavLink>
         <NavLink to='/hot-beans-web/courses'>Courses</NavLink>
+        <NavLink to='/hot-beans-web/join'>Join</NavLink>
       </nav>
       <main>
         <Switch>
