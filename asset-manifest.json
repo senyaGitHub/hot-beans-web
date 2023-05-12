@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hot-beans-web/static/css/main.6ed8f396.css",
-    "main.js": "/hot-beans-web/static/js/main.d6a0c240.js",
+    "main.css": "/hot-beans-web/static/css/main.57b31ab8.css",
+    "main.js": "/hot-beans-web/static/js/main.1e8ff3b7.js",
     "static/media/coding-min.jpg": "/hot-beans-web/static/media/coding-min.4f9a36876f879603caba.jpg",
     "static/media/coding3-min.jpg": "/hot-beans-web/static/media/coding3-min.e43bddb4f1ec0ee9537e.jpg",
     "static/media/design3-min.jpg": "/hot-beans-web/static/media/design3-min.06a67160c4407064d553.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.png": "/hot-beans-web/static/media/logo.2cb4cee8ada4e5b45479.png",
     "static/media/person1-min.jpeg": "/hot-beans-web/static/media/person1-min.a05b3a57ebe580f2f2d3.jpeg",
     "index.html": "/hot-beans-web/index.html",
-    "main.6ed8f396.css.map": "/hot-beans-web/static/css/main.6ed8f396.css.map",
-    "main.d6a0c240.js.map": "/hot-beans-web/static/js/main.d6a0c240.js.map"
+    "main.57b31ab8.css.map": "/hot-beans-web/static/css/main.57b31ab8.css.map",
+    "main.1e8ff3b7.js.map": "/hot-beans-web/static/js/main.1e8ff3b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed8f396.css",
-    "static/js/main.d6a0c240.js"
+    "static/css/main.57b31ab8.css",
+    "static/js/main.1e8ff3b7.js"
   ]
 }
