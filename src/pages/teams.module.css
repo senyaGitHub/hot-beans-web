@@ -56,7 +56,12 @@ p {
   margin: 0;
   font-size: 18px;
   line-height: 1.5;
-  color: #555;
+  color: #000000;
   margin-right: 20px;
 }
-
+.rectangle:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
