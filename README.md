@@ -1,10 +1,8 @@
 # Web Developer Recruitment Website
 
-This project is a college project. It includes a company profile, profiles of existing trainee web developers, job specifications, required qualifications, and an online application form. 
+This project is a college project. It includes 5 different pages via routing.
 
-Additionally, the website provides links to web development courses for users to improve their skills and knowledge. 
-
-Developed using React, this website is designed for users who have completed web development courses or qualifications and are now seeking employment opportunities. 
+Developed using React, for BTEC level 3 web dev unit.
 
 Please note that this is a frontend project and is not fully operational.
 
